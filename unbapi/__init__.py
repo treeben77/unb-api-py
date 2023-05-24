@@ -1,0 +1,11 @@
+from .application import *
+from .guild import *
+from .user import *
+from .items import *
+
+from typing import Literal
+
+VERSION: str = "0.0.1"
+VERSION_INFO: Literal['alpha', 'beta', 'final'] = "alpha"
+
+del Literal
